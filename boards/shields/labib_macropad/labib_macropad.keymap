@@ -8,7 +8,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = 
+            bindings = <
                 &kp F13   &kp F14   &kp F15
                 &kp F16   &kp F17   &kp F18
                 &mo 1     &mo 2     &kp F19
@@ -17,9 +17,9 @@
 
         layer_1 {
             bindings = <
-                &kp F20   &kp F21   &kp F22
-                &kp F32   &kp F24   &kp F25
-                &trans    &kp F26   &kp F27
+                &bt BT_SEL 0  &out OUT_BLE  &bt BT_CLR
+                &kp F32       &kp F24       &kp F25
+                &trans        &kp F26       &kp F27
             >;
         };
 
