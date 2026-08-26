@@ -1,2 +1,0 @@
-config SHIELD_LABIB_MACROPAD
-    def_bool $(shields_list_contains,labib_macropad)
