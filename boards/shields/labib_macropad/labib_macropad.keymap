@@ -11,25 +11,24 @@
             bindings = <
                 &kp F13   &kp F14   &kp F15
                 &kp F16   &kp F17   &kp F18
-                &mo 1     &mo 2     &out OUT_TOG   // Toggle between USB and BLE
+                &mo 1     &mo 2     &out OUT_TOG
             >;
         };
 
         layer_1 {
             bindings = <
-                &bt BT_SEL 0  &out OUT_BLE  &bt BT_CLR
-                &kp F20       &kp F21       &kp F22
-                &trans        &kp F23       &kp F24
+                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+                &bt BT_NXT   &bt BT_PRV    &bt BT_CLR
+                &trans       &kp F23       &kp F24
             >;
         };
 
         layer_2 {
             bindings = <
-                &out OUT_USB &kp F14   &kp F15   
+                &out OUT_USB &kp F14   &kp F15
                 &kp F16      &kp F17   &kp F18
-                &trans       &kp F19   &kp F20   
+                &trans       &kp F19   &kp F20
             >;
         };
-
     };
 };
