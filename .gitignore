@@ -1,2 +1,10 @@
-
-.zmk/
+*.pyc
+__pycache__/
+.venv/
+.DS_Store
+*.swp
+*.swo
+*.uf2
+*.hex
+*.bin
+*.zip

@@ -1,6 +1,2 @@
 config SHIELD_LABIB_MACROPAD
-    bool "Labib Macropad"
-    depends on SOC_NRF52840
-    select ZMK_KEYBOARD
-    help
-        3x3 Macropad with nice!nano v2
+    def_bool $(shields_list_contains,labib_macropad)

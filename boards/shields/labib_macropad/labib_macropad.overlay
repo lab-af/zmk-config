@@ -5,7 +5,6 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
-        zmk,battery = &vddh_batt;
     };
 
     kscan0: kscan {
@@ -22,10 +21,6 @@
             , <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
-    };
-
-    vddh_batt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
     };
 
     default_transform: matrix_transform {

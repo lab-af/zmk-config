@@ -7,7 +7,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-        // ===== LAYER 0: DEFAULT =====
         default_layer {
             bindings = <
                 &kp F13   &kp F14   &kp F15
@@ -16,7 +15,6 @@
             >;
         };
 
-        // ===== LAYER 1: BLUETOOTH CONTROLS =====
         layer_1 {
             bindings = <
                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
@@ -25,21 +23,11 @@
             >;
         };
 
-        // ===== LAYER 2: USB CONTROLS =====
         layer_2 {
             bindings = <
                 &out OUT_USB &kp F14   &kp F15
                 &kp F16      &kp F17   &kp F18
                 &trans       &kp F19   &kp F20
-            >;
-        };
-
-        // ===== LAYER 3: RESERVED =====
-        layer_3 {
-            bindings = <
-                &trans &trans &trans
-                &trans &trans &trans
-                &trans &trans &trans
             >;
         };
     };
