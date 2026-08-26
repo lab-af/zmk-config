@@ -2,7 +2,7 @@ file_format: "1"
 id: labib_macropad
 name: Labib Macropad
 type: shield
-url: https://github.com/lab-af/zmk-config
+url: https://github.com/yourusername/zmk-config
 requires: [nice_nano_v2]
 features:
   - keys

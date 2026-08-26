@@ -1,0 +1,5 @@
+# Enable the shield
+CONFIG_SHIELD_LABIB_MACROPAD=y
+
+# Enable macros
+CONFIG_ZMK_KEYMAP_HAS_MACROS=y
